@@ -4,7 +4,7 @@ import { pauseImg, playImg, replayImg } from "../utils";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-const VideoCarousel = () => {
+export const VideoCarousel = () => {
   const videoRef = useRef([]);
   const videoSpanRef = useRef([]);
   const videoDivRef = useRef([]);
@@ -138,7 +138,7 @@ const VideoCarousel = () => {
                   ref={(el) => {
                     videoRef.current[i] = el;
                   }}
-                  className="pointer-events-none"
+                  className={"pointer-events-none"}
                   onEnded={() =>
                     i !== 3
                       ? handleProcess("video-end", i)
@@ -198,4 +198,3 @@ const VideoCarousel = () => {
     </>
   );
 };
-export default VideoCarousel;
