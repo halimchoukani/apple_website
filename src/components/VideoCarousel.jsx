@@ -116,6 +116,9 @@ export const VideoCarousel = () => {
       case "play":
         setVideo((prev) => ({ ...prev, isPlaying: !prev.isPlaying }));
         break;
+      case "pause":
+        setVideo((prev) => ({ ...prev, isPlaying: !prev.isPlaying }));
+        break;
       default:
         return video;
     }
@@ -135,6 +138,9 @@ export const VideoCarousel = () => {
                   ref={(el) => {
                     videoRef.current[i] = el;
                   }}
+                  className={
+                    "${last.id ===2 &&'translate-x-44'} pointer-events-none"
+                  }
                   onEnded={() =>
                     i !== 3
                       ? handleProcess("video-end", i)
