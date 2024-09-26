@@ -16,8 +16,10 @@
     "@sentry/react": "^8.32.0",
     "@sentry/vite-plugin": "^2.22.4",
     "gsap": "^3.12.5",
+    "gsap-trial": "^3.12.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "scrollmagic": "^2.0.8",
     "three": "^0.168.0"
   },
   "devDependencies": {
