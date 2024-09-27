@@ -26,7 +26,7 @@ function Features() {
       start: "-100% bottom",
       end: "bottom",
       onUpdate: (self) => {
-        video.currentTime = video.duration * self.progress * 0.3;
+        video.currentTime =Math.exp((self.progress/0.25)-3) - 0.05;
         video.pause();
       },
     });
