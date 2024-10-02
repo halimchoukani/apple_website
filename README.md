@@ -19,12 +19,19 @@
 
 <h2 id="technologies">💻 Technologies</h2>
 
-- list of all technologies you used
--React.Js
--Three.JS
--TailwindCSS
--GSAP
--Sentry (for website performance)
+- list of all technologies you used :
+  <ul>
+   <li>React.Js</li>
+   <li>Three.JS</li>
+   <li>TailwindCSS</li>
+   <li>GSAP</li>
+   <li>Sentry (for website performance)</li>
+  </ul>
+
+
+
+
+
 
 <h2 id="started">🚀 Getting started</h2>
 
