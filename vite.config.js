@@ -9,7 +9,7 @@ export default defineConfig({
     project: "javascript-react",
     url: "https://sentry.io/"
   })],
-
+  base:"/apple_website/",
   build: {
     sourcemap: true
   }
