@@ -10,7 +10,7 @@
 </p>
 
 
-<p align="center">Simple description of what your project do or how to use it</p>
+<p align="center">3D Apple Website Clone using reactjs , threejs and gsap</p>
 
 
 <p align="center">
