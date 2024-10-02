@@ -14,7 +14,7 @@
 
 
 <p align="center">
-<a href="https://halimchoukani.github.io/apple_website/" target="_blank">📱 Visit this Project</a>
+<a href="https://halimchoukani.github.io/apple_website/"  target="_blank">📱 Visit this Project</a>
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
