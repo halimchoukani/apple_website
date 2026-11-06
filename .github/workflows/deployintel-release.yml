@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Notify DeployIntel of new release
         run: |
-          curl -s -X POST "http://localhost:8080/api/v1/releases" \
+          curl -s -X POST "https://1959-197-15-5-235.ngrok-free.app/api/v1/releases" \
             -H "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjZGFlYzRlYS01NmU4LTQ4YWQtODYyYy02MjE5YjM3YzNlZmYiLCJlbWFpbCI6ImhhbGltLmNob3VrYW5pQGdtYWlsLmNvbSIsInJvbGUiOiJERVZFTE9QRVIiLCJwcm9qZWN0SWQiOiIxNWU4YTcwZi1jMDNkLTQ0YmUtOTkyMi1jMDMwMzExOTVkYTAiLCJ0eXBlIjoiQ0lDRCIsImlhdCI6MTc5Mzk5MTU1NSwiZXhwIjoxODI1NTI3NTU1fQ.UZG92kR3OrsJWh82Kuf5OGq9pD5MyO7wjmfJiozVnkSxUVCJkox-VmeFvrtaJuWsBX9gxOtDAwhCqoOCgAhkwg" \
             -H "Content-Type: application/json" \
             -d '{
